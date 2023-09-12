@@ -1,0 +1,116 @@
+<html>
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #08bdf5;
+  color: white;
+  font-size: 30px;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #ffb805;
+  border-radius: 25px;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 8px 8px 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.footer {
+  background-color: #000000;
+  color: #f1f1f1;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="header">
+                <h1>Formulir Registrasi</h1>
+                <p>Pendaftaran peserta EntrepreNURSE</p>
+            </div>
+            <div class="container">
+              <h3>Biodata Peserta</h3>
+              <hr>
+              <input type="text" placeholder="Nama Lengkap - Gelar" required>
+              <input type="text" placeholder="Asal Instansi / Kota" required>
+              <input type="text" placeholder="Alamat" required>
+              <input type="number" placeholder="Kodepos" required>
+              <input type="text" placeholder="Provinsi" required>
+              <input type="number" placeholder="Telepon / Handphone" required>
+              <input type="text" placeholder="Email" required>
+              <input type="text" placeholder="Sponsor" required>
+              <hr>
+              <h3>Biodata Perusahaan</h3>
+              <hr>
+              <input type="text" placeholder="Nama Perusahaan" required>
+              <input type="text" placeholder="Alamat Perusahaan" required>
+              <input type="text" placeholder="Nama Kontak Personal" required>
+              <input type="number" placeholder="Telepon Personal" required>
+              <input type="text" placeholder="Email Perusahaan" required>
+              <hr>
+              <p>Dengan mendaftar ini, anda setuju dengan  <a href="#">Ketentuan & Persyaratan</a> kami.</p>
+          
+              <button type="submit" class="registerbtn">Register dan Kirim Bukti Transfer</button>
+            </div>
+            
+            <div class="container footer">
+              <p>Butuh Bantuan? <a href="#">Panggil</a>.</p>
+              <p></p>
+            </div>
+          </form>
+
+          <script type="text/javascript">
+          </script>
+        
+    </body>
+</html>
